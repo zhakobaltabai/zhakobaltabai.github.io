@@ -1,0 +1,147 @@
+@media only screen and (max-width:800px) and (min-width:501px) {
+    #siteLink {
+        font-size: 15px;
+    }
+}
+
+header {
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: linear-gradient(0.25turn, #ffffff, #d1d1d1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 10px 10px;
+}
+
+#iconToyota {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#textToyota {
+    position: absolute;
+    top: 30%;
+
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 100%;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #111111;
+}
+
+#iconLogin {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+#siteButton {
+    display: flex;
+    justify-content: left;
+
+}
+
+#siteLink {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    line-height: 100%;
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #111111;
+}
+
+#siteLink:hover {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 100%;
+    text-decoration: none;
+    transition: all 1.5s;
+    margin-left: 10%;
+    color: #111111;
+    margin-top: 24%;
+}
+
+#Title {
+    text-align: center;
+    font-size: 100px;
+    transition: all 1.5s;
+    font-family: tcomMed, HelveticaNeueMedium, Helvetica Neue Medium, Arial, sans-serif;
+}
+
+#Text {
+    text-align: center;
+    transition: all 2.5s;
+    width: 50%;
+    margin-left: 25%;
+    font: 1em sans-serif;
+    font-family: tcomMed, HelveticaNeueMedium, Helvetica Neue Medium, Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+#titleprice {
+    width: 100%;
+    margin-top: 40px;
+    color: #fdfbfb;
+    font-family: tcomMed, HelveticaNeueMedium, Helvetica Neue Medium, Arial, sans-serif;
+    font-size: 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    height: 110%;
+    margin: 25%;
+    width: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 36, 240, 0.363), 0px 4px 4px rgba(0, 26, 255, 0.25);
+}
+button {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 100%;
+    line-height: 100%;
+    transition: all 2.5s;
+    text-decoration: none;
+    transition: all 2.5s;
+    color: #111111;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#toyota {
+    transition: all 1.5s;
+    width: 100%;
+    height: 700px;
+}
+
+button:hover {
+    border-radius: 10px;
+    color: #000000;
+    background: #fdfbfb;
+    border-color: #000000;
+}
+
+#divSpaseAround {
+    margin: 1.5%;
+}
+
+#Reclama {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    
+}
+
